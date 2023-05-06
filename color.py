@@ -44,10 +44,6 @@ mean = round(totalColorFrequency()/len(frequency.values()), 2)
 
 print('1) Mean is 8\n','The BROWN shirt is the mean color as its frequency 9, is closer to the mean,', mean)
 
-
-
-
-
 '''
 2) Color of shirt mostly worn throughout the week
 '''
@@ -60,8 +56,6 @@ for j in frequency.values():
                 print(
                     '--------------------------------------------------------------------------------------------------')
                 print('2)',i, 'is the most worn color of shirt')
-
-
 
 '''
 3) Median color
@@ -125,14 +119,6 @@ for i in frequency.keys():
     # curs_obj.execute("INSERT INTO emp_data(emp_name, emp_age) VALUES(str(i), frequency[i]);")
 # print("Data Inserted")
 
-
-
-
-
-
-
-
-
 '''
 7) Recursive Search algorithm
 '''
@@ -167,7 +153,6 @@ print ('------------------------------------------------------------------------
 print ('--------------------------------------------------------------------------------------------------')
 baseTenNumber = ((a*(2**3))+(b*(2**2))+ (c*(2**1)) + d)
 print('8)', a, b, c, d, 'in base 10 is', baseTenNumber)
-
 
 '''
 9) First 50 fibonacci sequence
